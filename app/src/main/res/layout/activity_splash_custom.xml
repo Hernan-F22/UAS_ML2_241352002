@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layoutSplash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:gravity="center">
 
+    <!-- Logo -->
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
         android:src="@drawable/logo"
-        android:scaleType="fitCenter"
+        android:scaleType="centerInside"
         android:contentDescription="@string/app_name" />
-</LinearLayout>
+
+    <!-- Judul Aplikasi -->
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amazon Stock Price Prediction"
+        android:textSize="18sp"
+        android:textColor="#555555"
+        android:textStyle="bold"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:letterSpacing="0.05" />
+</RelativeLayout>
