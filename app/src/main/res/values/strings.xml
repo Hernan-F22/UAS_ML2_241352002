@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Amazon Stock Price Prediction</string>
+
+    <string name="about_description">
+        Domain: Financial Time Series Forecasting\n\n
+        Proyek ini bertujuan untuk memprediksi harga saham harian Amazon menggunakan algoritma Recurrent Neural Network (RNN) berbasis data historis dari tahun 1997 hingga 2020.\n\n
+        Model ini dikembangkan dalam konteks financial time series forecasting untuk mendukung pengambilan keputusan investasi.\n\n
+
+        Goals:\n
+        1. Mengembangkan model prediksi harga saham berbasis Recurrent Neural Network (RNN) menggunakan data historis saham Amazon dari tahun 1997 hingga 2020.\n
+        2. Mengidentifikasi pola pergerakan harga saham dengan memanfaatkan struktur berurutan dari data deret waktu.\n
+        3. Mengevaluasi performa model RNN dalam memprediksi harga penutupan (closing price) saham Amazon.\n
+        4. Membandingkan hasil prediksi dengan data aktual untuk menilai akurasi model.\n\n
+
+        Solution Statements:\n
+        Solusi yang ditawarkan dalam proyek ini adalah membangun model deep learning berbasis RNN (khususnya LSTM) untuk mempelajari hubungan temporal dalam data historis saham Amazon. Dataset akan diproses melalui tahapan cleaning, normalisasi, dan pembentukan sequence window, lalu digunakan untuk melatih model prediktif.
+    </string>
+
+    <string name="features_text">
+        Fitur:\n
+        - Splash screen\n
+        - Informasi aplikasi\n
+        - Penjelasan arsitektur RNN\n
+        - Simulasi prediksi berbasis teks menggunakan model RNN
+    </string>
+    <string name="navigation_drawer_open">Buka menu</string>
+    <string name="navigation_drawer_close">Tutup menu</string>
+    <string name="app_version">Versi Aplikasi: 1.0.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

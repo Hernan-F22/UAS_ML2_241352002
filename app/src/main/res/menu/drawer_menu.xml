@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_info"
+        android:title="Info Pengembang"
+        android:icon="@drawable/ico_info" />
+    <item
+        android:id="@+id/nav_rate"
+        android:title="Beri Rating"
+        android:icon="@drawable/ico_star" />
+</menu>
